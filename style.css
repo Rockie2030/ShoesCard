@@ -79,7 +79,7 @@ body {
   font-weight: bold;
   color: #585858;
 }
-button.active {
+button.active:hover {
   background: #585858;
   color: white;
 }
@@ -96,4 +96,8 @@ button.active {
   cursor: pointer;
   border-radius: 30px;
   font-weight: bolder;
+}
+.purchase button:hover {
+  background: #585858;
+  color: #768fff;
 }
